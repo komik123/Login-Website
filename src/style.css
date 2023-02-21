@@ -3,18 +3,11 @@
     padding: 0px 0px 0px 0px;
     
   }
-body {
-    position: relative;
-    width: 1920px;
-    height: 1080px;
-    background: #FFFFFF;
-    font-size: small;
-    background-color: #f0f0f0;
-    color: blue;
-    
-  }
+body{
+    background: #F5F5F5;  
+}
 
-  .logIn{
+.logIn{
       /* Log in */
   
   
@@ -27,15 +20,12 @@ body {
       gap: 32px;
   
       position: absolute;
-      width: 500px;
+      width: 416px;
       height: 552px;
       left: 272px;
-      right:1232px;
-      top: 339px;
-      bottom: 264px;
+      top: 264px;
 
-      margin-right: 2px;
-  }
+}
 
 /*Nazwa loginu */
 h1.Header{
@@ -104,10 +94,31 @@ h1.Header{
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+form.mainEmail{
+    /* Input */
 
-   
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 416px;
+    height: 62px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 }
+
 .login_email_input{
     /* Log in Email Input */
 
@@ -128,11 +139,9 @@ h1.Header{
     flex: none;
     order: 0;
     flex-grow: 0;
-
-    
 }
-label{
-/* Label */
+label.labelEmail{
+    /* Label */
 
 
     width: 33px;
@@ -159,8 +168,35 @@ label{
     order: 0;
     flex-grow: 0;
 }
+label.labelPassword{
+    /* Label */
 
-input#email, input#id_password{ 
+
+    width: 58px;
+    height: 18px;
+
+    /* Labels/Body Small */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Gray Dark */
+
+    color: #0E0E18;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+input#email{ 
     /* Input */
 
 
@@ -187,6 +223,38 @@ input#email, input#id_password{
 
     flex: none;
     order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+input#id_password{
+    /* Input */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 24px;
+
+    width: 416px;
+    height: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray Medium */
+
+    border: 1px solid #5C6773;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
     align-self: stretch;
     flex-grow: 0;
 }
@@ -233,10 +301,31 @@ input#email, input#id_password{
     flex: none;
     order: 0;
     flex-grow: 0;
-
   
 }
+form.mainPassword{
+    /* _base_password_input */
 
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 416px;
+    height: 88px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
 form i {
     margin-left: -30px; 
     position: absolute;
@@ -324,13 +413,11 @@ button.loginIn{
     /* Auto layout */
 
     display: flex;
-    /* flex-direction: row; */
-    text-align: center;
+    flex-direction: row;
     align-items: center;
     padding: 12px 24px 10px 125px;
+    gap:8px;
     border: 10px;
-    margin: 0 0 20px 15%;
-    
 
     width: 304px;
     height: 45px;
@@ -356,11 +443,35 @@ button.loginIn{
 
     /* White */
 
-    color: #FFFFFF;
-}
+    color: #FFFFFF; 
+    
+} 
 
 button.loginIn:hover{
     background-color: #32386A;
+}
+
+.Frame14989{
+    /* Frame 14989 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 416px;
+    height: 140px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 .Frame7{
     /* Frame 7 */
