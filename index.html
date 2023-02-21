@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Projekt rekrutacyjny- Zuza</title>
+</head>
+<body>
+
+    <div class="logIn">
+        <h1 class="Header">Log in</h1>
+            <div class="Frame3">
+                <div class="Frame2">
+                        <div class="login_email_input">
+                            <form action="/action_page.php" method="post">
+                                <label for="email">Email</label><br />
+                                <input type="email" id="email" placeholder="john@johndoe.com" name="email"/>
+                            </form>
+                        </div>
+                    <div class="Frame_14976">
+                        <div class="login_password_input">
+                            <form action="/action_page.php" method="post">                                
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" autocomplete="current-password" required="" id="id_password"> 
+                                    <span class="show-btn">
+                                        <i class="bi bi-eye-slash" id="togglePassword"></i>
+                                    </span>                                  
+                            </form>
+                            <div class="resetPassword">
+                                <button id="resetPassword">Forgot your password?</button>
+                                
+                            </div>
+                              <div class="checkboxRememberMe">
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+                            </div>                                                     
+                            <button type="submit" form="nameform" value="Submit" class ="loginIn">Log in</button>              
+                            <div class="Frame7">
+                                <h2 name="line1"><span>or continue with</span></h2>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+        <div class="loginImage">
+            <img src="src/login-image.png" alt="login-image">
+        </div>
+
+
+
+
+
+        <script type="text/javascript" src="src/index.js"></script>
+
+</body>
+</html>
