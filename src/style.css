@@ -380,6 +380,11 @@ button#resetPassword{
     line-height: 18px;
     cursor: pointer;
     margin-left: 71%;
+    color: rgba(99, 107, 183, 1);
+}
+
+button#resetPassword:hover{
+    color: #32386A;
 }
 
 .show-btn{
@@ -461,7 +466,6 @@ label.rememberMe{
     order: 1;
     flex-grow: 0;
 }
-
 
 button.loginIn{
     /* Button Log in */
@@ -594,13 +598,182 @@ h2 span {
     border-radius: 36px;
 }
 
+div.socialMedia{
+   /* Social Media */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 168px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+i#socialMediaCircleGoogle{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #F66159;;
+    padding: 10px;
+    color: #F66159;
+    cursor: pointer;
+}
+
+i#socialMediaCircleGoogle:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+i#socialMediaCircleFacebook{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #636BB7;;
+    padding: 10px;
+    color: #636BB7;
+    cursor: pointer;
+}
+
+i#socialMediaCircleFacebook:hover{
+    box-shadow: 0 0 18px rgba(33,33,33,.2); 
+}
+
+i#socialMediaCircleLinkedin{
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #32386A;;
+    padding: 10px;
+    color:#32386A;
+    cursor: pointer;
+}
+
+i#socialMediaCircleLinkedin:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.Frame14991{
+    /* Frame 14991 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 416px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+h2.line2{
+  
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #BDC2CB;
+    line-height: 0.1em;
+    margin:1px; 
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+span.line2{
+    /* Line 2 */
+
+
+    width: 416px;
+    height: px;
+
+    /* Gray Light */
+
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Body/Extra-Small */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Gray Medium */
+
+    color: #5C6773;
+}
+
+button.createAccount{
+    /* Message */
+
+    
+    text-decoration-line: underline;
+    background-color: inherit;
+    
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+    
+
+    /* Body/Extra-Small */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    background-color: inherit;
+    /* identical to box height */
+
+    text-align: center;
+    border: 0px;
+    /* Gray Medium */
+
+    color: rgba(99, 107, 183, 1);
+
+}
+
+button.createAccount:hover{
+    color: #32386A;
+}
+
 .loginImage{
         /* Overlay */
     position: absolute;
-    width: 964px;
+    width: 600px;
     height: 1080px;
     left: 960px;
     top: 0px;
     padding-top: 0px;
     background: rgba(99, 107, 183, 0.2);
+
+    
 }
