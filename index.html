@@ -10,49 +10,48 @@
 </head>
 <body>
 
-    <div class="logIn">
-        <h1 class="Header">Log in</h1>
-        <div class="Frame3">
-                <div class="Frame2">
-                        <div class="login_email_input">
-                            <form action="/action_page.php" method="post" class="mainEmail">
-                                <label for="email" class="labelEmail">Email</label><br />
-                                <input type="email" id="email" placeholder="john@johndoe.com" name="email"/>
-                            </form>
+<div class="logIn">
+    <h1 class="Header">Log in</h1>
+    <div class="Frame3">
+        <div class="Frame2">
+            <div class="logInEmailInput">
+                <form action="/action_page.php" method="post" class="mainEmail">
+                    <label for="email" class="labelEmail">Email</label><br />
+                    <input type="email" id="email" placeholder="john@johndoe.com" name="email"/>
+                </form>
+            </div>
+            <div class="Frame14976">
+                <div class="loginPasswordInput">
+                    <form action="/action_page.php"  method="post" class="mainPassword">                                
+                        <label for="password" class="labelPassword">Password</label>
+                        <input type="password" name="password" autocomplete="current-password" required="" id="id_password"> 
+                        <span class="show-btn">
+                        <i class="bi bi-eye-slash" id="togglePassword"></i>
+                        </span>                                  
+                        <div class="resetPassword">
+                        <button id="resetPassword">Forgot your password?</button>
+                    </div>
+                    </form>
+                    <div class="checkboxRememberMe">
+                                    <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe" class="rememberMe">Remember me</label>
+                    </div>                                                       
                         </div>
-                        <div class="Frame_14976">
-                            <div class="login_password_input">
-                                <form action="/action_page.php"  method="post" class="mainPassword">                                
-                                        <label for="password" class="labelPassword">Password</label>
-                                        <input type="password" name="password" autocomplete="current-password" required="" id="id_password"> 
-                                        <span class="show-btn">
-                                            <i class="bi bi-eye-slash" id="togglePassword"></i>
-                                        </span>                                  
-                                </form>
-                                <div class="resetPassword">
-                                    <button id="resetPassword">Forgot your password?</button>
-                                </div>
-                                <div class="checkboxRememberMe">
-                                    <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
-                                </div>                                                     
-                                
-                            </div>   
-                        </div>
-                </div>
-                <button class ="loginIn" type="submit" form="nameform" value="Submit" >Log in </button>
-                <div class="Frame14989">
-                    <div class="Frame7">
-                        <h2 name="line1"><span>or continue with</span></h2>
-                    </div>
-                    <div class="socialMedia">
-
-                    </div>
-                    <div class="Frame14991">
-
-                    </div>
-                </div>              
+            </div>         
         </div>
+        <button class ="loginIn" type="submit" form="nameform" value="Submit" >Log in </button>
+        <div class="Frame14989">
+            <div class="Frame7">
+                <h2 name="line1"><span>or continue with</span></h2>
+            </div>
+            <div class="socialMedia">
+
+            </div>
+            <div class="Frame14991">
+
+            </div>
+        </div> 
     </div>
+</div>
         <div class="loginImage">
             <img src="src/login-image.png" alt="login-image">
         </div>
